@@ -113,6 +113,19 @@
         console.log("Computer score: " + computerScore);
         console.log(" ");
 
+        if (playerScore >> computerScore) {
+            console.log("CONGRATULATIONS!! YOU HAVE WON BEST OF 5 ROUNDS OF ROCK, PAPER, SCISSORS!");
+
+        } else if (computerScore>> playerScore) {
+            console.log("YOU LOST BEST OF 5 ROUNDS OF ROCK, PAPER, SCISSORS! TRY AGAIN")
+        
+        } else {
+            console.log("DRAW!!! TRY AGAIN TO SETTLE THE SCORE ONCE AND FOR ALL!!")
+        }
+    
+
+
+        
         
     
     }
